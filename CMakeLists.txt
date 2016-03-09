@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 2.8.12)
 project(obs-studio)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
+set (CMAKE_PREFIX_PATH "/usr/local/Cellar/qt5/5.5.1_2/")
 
 include(ObsHelpers)
 include(ObsCpack)

@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/cmake/helper_subdir/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/CopyMSVCBins.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindAppKit.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindCXX11.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindDBus.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindFFmpeg.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindFreetype.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindJansson.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindLibcurl.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindLibfdk.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindLibx264.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindThreads.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/FindZLIB.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/ObsCpack.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cmake/Modules/ObsHelpers.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/file-updater/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/file-updater/file-updater/file-updater.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/file-updater/file-updater/file-updater.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/glad/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/glad/include/glad/glad.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/glad/src/glad.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/ipc-util/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/cmake/CheckFunctionKeywords.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/cmake/config.h.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/cmake/jansson_config.h.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/jansson.pc.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/dump.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/error.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/hashtable.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/hashtable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/load.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/memory.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/pack_unpack.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/strbuffer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/strbuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/strconv.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/utf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/utf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/jansson/src/value.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-audio-decoder.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-callbacks.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-callbacks.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-circular-queue.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-circular-queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-clock.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-clock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-decoder.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-decoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-demuxer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-demuxer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-frame.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-packet-queue.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-packet-queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-threading-posix.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-threading.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-timer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-util.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-util.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/libff/libff/ff-video-decoder.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/deps/w32-pthreads/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-cocoa.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-helpers.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-helpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-indexbuffer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-shader.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-shaderparser.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-shaderparser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-stagesurf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-subsystem.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-subsystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-texture2d.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-texturecube.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-vertexbuffer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs-opengl/gl-zstencil.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/callback/calldata.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/callback/calldata.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/callback/decl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/callback/decl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/callback/proc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/callback/proc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/callback/signal.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/callback/signal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/axisang.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/axisang.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/bounds.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/bounds.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/device-exports.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/effect-parser.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/effect-parser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/effect.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/effect.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/graphics-ffmpeg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/graphics-imports.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/graphics-internal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/graphics.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/graphics.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/image-file.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/image-file.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/input.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/libnsgif/libnsgif.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/libnsgif/libnsgif.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/math-defs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/math-extra.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/math-extra.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/matrix3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/matrix3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/matrix4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/matrix4.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/plane.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/plane.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/quat.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/quat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/shader-parser.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/shader-parser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/texture-render.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/vec2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/vec2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/vec3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/vec3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/vec4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/graphics/vec4.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/LibObsConfig.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/LibObsConfigVersion.cmake.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/audio-io.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/audio-io.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/audio-math.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/audio-resampler-ffmpeg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/audio-resampler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/format-conversion.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/format-conversion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/frame-rate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/media-io-defs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/media-remux.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/media-remux.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/video-fourcc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/video-frame.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/video-frame.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/video-io.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/video-io.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/video-matrices.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/video-scaler-ffmpeg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/media-io/video-scaler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-audio-controls.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-audio-controls.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-audio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-avc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-avc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-cocoa.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-config.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-data.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-data.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-defs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-display.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-encoder.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-encoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-ffmpeg-compat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-hotkey-name-map.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-hotkey.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-hotkey.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-hotkeys.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-interaction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-internal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-module.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-module.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-output-delay.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-output.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-output.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-properties.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-properties.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-scene.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-scene.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-service.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-service.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-source-transition.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-source.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-source.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-ui.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-video.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs-view.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/obsconfig.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/array-serializer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/array-serializer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/base.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/base.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/bmem.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/bmem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/c99defs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/cf-lexer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/cf-lexer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/cf-parser.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/cf-parser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/circlebuf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/config-file.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/config-file.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/crc32.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/crc32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/darray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/dstr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/dstr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/file-serializer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/file-serializer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/lexer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/lexer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/pipe-posix.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/pipe.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/platform-cocoa.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/platform-nix.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/platform.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/platform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/profiler.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/profiler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/profiler.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/serializer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/text-lookup.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/text-lookup.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/threading-posix.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/threading-posix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/threading.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/utf8.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/utf8.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/util_uint128.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/vc/vc_inttypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/vc/vc_stdbool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libobs/util/vc/vc_stdint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/adv-audio-control.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/adv-audio-control.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/audio-encoders.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/audio-encoders.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/crash-report.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/crash-report.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/display-helpers.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/double-slider.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/double-slider.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/focus-list.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/focus-list.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/NameDialog.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/obs.qrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSBasic.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSBasicFilters.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSBasicInteraction.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSBasicSettings.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSBasicSourceSelect.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSBasicTransform.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSLicenseAgreement.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSLogReply.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/forms/OBSRemux.ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/hotkey-edit.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/hotkey-edit.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/item-widget-helpers.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/item-widget-helpers.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/menu-button.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/menu-button.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/mute-checkbox.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/obs-app.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/obs-app.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/platform-osx.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/platform.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/properties-view.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/properties-view.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/properties-view.moc.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/qt-display.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/qt-display.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/qt-wrappers.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/qt-wrappers.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/remote-text.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/remote-text.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/slider-absoluteset-style.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/slider-absoluteset-style.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/source-label.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/source-label.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/source-list-widget.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/source-list-widget.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/vertical-scroll-area.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/vertical-scroll-area.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/visibility-checkbox.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/visibility-checkbox.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/visibility-item-widget.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/visibility-item-widget.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/volume-control.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/volume-control.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-adv-audio.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-adv-audio.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-filters.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-filters.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-interaction.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-interaction.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-main-outputs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-main-outputs.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-main-profiles.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-main-scene-collections.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-main-transitions.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-main.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-preview.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-preview.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-properties.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-properties.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-settings.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-settings.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-source-select.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-source-select.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-status-bar.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-status-bar.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-transform.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-basic-transform.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-license-agreement.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-license-agreement.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-log-reply.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-log-reply.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-main.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-namedialog.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-namedialog.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-projector.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-projector.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-remux.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/obs/window-remux.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/coreaudio-encoder/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/coreaudio-encoder/encoder.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink-device-discovery.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink-device-discovery.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink-device-instance.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink-device-instance.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink-device-mode.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink-device-mode.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink-device.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink-device.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/decklink.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPIConfiguration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPIDeckControl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPIDiscovery.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPIDispatch.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPIModes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPIStreaming.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPITypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/decklink-sdk/DeckLinkAPIVersion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/mac/platform.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/platform.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/decklink/plugin-main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/image-source/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/image-source/image-source.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-avcapture/av-capture.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-avcapture/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-avcapture/left-right.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-avcapture/scope-guard.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/audio-device-enum.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/audio-device-enum.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/mac-audio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/mac-display-capture.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/mac-helpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/mac-window-capture.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/plugin-main.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/window-utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-capture/window-utils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/plugin-main.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/Syphon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/Syphon_Prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonBuildMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonCFMessageReceiver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonCFMessageReceiver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonCFMessageSender.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonCFMessageSender.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonClient.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonClient.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonClientConnectionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonClientConnectionManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonDispatch.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonDispatch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonImage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonIOSurfaceImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonIOSurfaceImage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMachMessageReceiver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMachMessageReceiver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMachMessageSender.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMachMessageSender.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMessageQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMessageQueue.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMessageReceiver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMessageReceiver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMessageSender.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMessageSender.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMessaging.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonMessaging.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonOpenGLFunctions.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonOpenGLFunctions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonPrivate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonServer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonServer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonServerConnectionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonServerConnectionManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonServerDirectory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon-framework/SyphonServerDirectory.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-syphon/syphon.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-vth264/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mac-vth264/encoder.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/closest-pixel-format.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/ffmpeg-mux/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/ffmpeg-mux/ffmpeg-mux.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/ffmpeg-mux/ffmpeg-mux.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/obs-ffmpeg-aac.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/obs-ffmpeg-compat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/obs-ffmpeg-formats.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/obs-ffmpeg-mux.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/obs-ffmpeg-output.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/obs-ffmpeg-source.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-ffmpeg/obs-ffmpeg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/async-delay-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/chroma-key-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/color-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/color-key-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/crop-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/gain-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/mask-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/noise-gate-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/obs-filters.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/scroll-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-filters/sharpness-filter.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-libfdk/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/flv-mux.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/flv-mux.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/flv-output.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/amf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/amf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/bytes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/cencode.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/cencode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/dh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/dhgroups.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/handshake.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/hashswf.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/http.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/log.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/log.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/md5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/md5.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/parseurl.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/rtmp.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/rtmp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/librtmp/rtmp_sys.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/obs-outputs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-outputs/rtmp-stream.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-transitions/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-transitions/obs-transitions.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-transitions/transition-cut.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-transitions/transition-fade.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-transitions/transition-swipe.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-x264/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-x264/obs-x264-plugin-main.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/obs-x264/obs-x264.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/rtmp-services/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/rtmp-services/lookup-config.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/rtmp-services/rtmp-common.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/rtmp-services/rtmp-custom.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/rtmp-services/rtmp-format-ver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/rtmp-services/rtmp-services-main.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/text-freetype2/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/obs/obs_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/obs/obs_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/obs/qrc_obs.cpp">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/obs/qrc_obs.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/obs/obs_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/obs/obs_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/obs/qrc_obs.cpp">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/obs/qrc_obs.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/obs/obs_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/obs/obs_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/obs/qrc_obs.cpp">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/obs/qrc_obs.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/obs/obs_automoc.cpp">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/obs/obs_automoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/obs/qrc_obs.cpp">
+      <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/obs/qrc_obs.cpp" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2/include" />
+          <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
+          <root url="file:///Library/Frameworks/WacomMultiTouch.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKitScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioVideoBridging.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Automator.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CalendarStore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Cocoa.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMediaIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreWLAN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DirectoryService.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecording.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiskArbitration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVComponentGlue.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVDPlayback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ExceptionHandling.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FinderSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FWAUserLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLUT.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Hypervisor.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ICADevices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageCaptureCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IMServicePlugIn.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InputMethodKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstallerPlugins.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstantMessage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOSurface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kerberos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kernel.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LDAP.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaLibrary.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetFS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenCL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OSAKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PCSC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PreferencePanes.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PubSub.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Python.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QTKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickTime.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScreenSaver.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Scripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScriptingBridge.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityInterface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ServiceManagement.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SyncServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/TWAIN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoDecodeAcceleration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vmnet.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/deps/file-updater" />
+          <root url="file://$MODULE_DIR$/deps/glad/include" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src" />
+          <root url="file://$MODULE_DIR$/deps/libff" />
+          <root url="file://$MODULE_DIR$/libobs" />
+          <root url="file://$MODULE_DIR$/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/deps/jansson/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/deps/jansson/private_include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/plugins/rtmp-services" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/deps/jansson/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/deps/jansson/private_include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/plugins/rtmp-services" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/deps/jansson/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/deps/jansson/private_include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/plugins/rtmp-services" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/deps/jansson/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/deps/jansson/private_include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/plugins/rtmp-services" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/Cellar/ffmpeg/3.0/include" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Enginio.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DCollision.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DCore.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DInput.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DLogic.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DQuick.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DQuickRenderer.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DRenderer.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtBluetooth.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtCLucene.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtConcurrent.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtCore.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtDeclarative.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtDesigner.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtDesignerComponents.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtGui.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtHelp.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtLocation.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtMacExtras.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtMultimedia.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtMultimediaQuick_p.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtMultimediaWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtNetwork.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtNfc.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtOpenGL.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtPositioning.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtPrintSupport.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQml.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQuick.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQuickParticles.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQuickTest.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQuickWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtScript.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtScriptTools.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtSensors.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtSerialPort.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtSql.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtSvg.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtTest.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtUiPlugin.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebChannel.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebEngine.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebEngineWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebKit.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebKitWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebSockets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtXml.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtXmlPatterns.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/mkspecs/macx-clang" />
+          <root url="file:///usr/local/Cellar/x264/r2601/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.2/include" />
+          <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
+          <root url="file:///Library/Frameworks/WacomMultiTouch.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKitScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioVideoBridging.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Automator.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CalendarStore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Cocoa.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMediaIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreWLAN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DirectoryService.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecording.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiskArbitration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVComponentGlue.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVDPlayback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ExceptionHandling.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FinderSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FWAUserLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLUT.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Hypervisor.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ICADevices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageCaptureCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IMServicePlugIn.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InputMethodKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstallerPlugins.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstantMessage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOSurface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kerberos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kernel.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LDAP.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaLibrary.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetFS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenCL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OSAKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PCSC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PreferencePanes.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PubSub.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Python.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QTKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickTime.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScreenSaver.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Scripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScriptingBridge.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityInterface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ServiceManagement.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SyncServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/TWAIN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoDecodeAcceleration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vmnet.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/deps/file-updater" />
+          <root url="file://$MODULE_DIR$/deps/glad/include" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src" />
+          <root url="file://$MODULE_DIR$/deps/libff" />
+          <root url="file://$MODULE_DIR$/libobs" />
+          <root url="file://$MODULE_DIR$/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/deps/jansson/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/deps/jansson/private_include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/plugins/rtmp-services" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/deps/jansson/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/deps/jansson/private_include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/plugins/rtmp-services" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/deps/jansson/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/deps/jansson/private_include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/plugins/rtmp-services" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/config" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/deps/jansson/include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/deps/jansson/private_include" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/obs" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/plugins/rtmp-services" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/Cellar/ffmpeg/3.0/include" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Enginio.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DCollision.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DCore.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DInput.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DLogic.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DQuick.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DQuickRenderer.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/Qt3DRenderer.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtBluetooth.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtCLucene.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtConcurrent.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtCore.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtDeclarative.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtDesigner.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtDesignerComponents.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtGui.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtHelp.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtLocation.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtMacExtras.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtMultimedia.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtMultimediaQuick_p.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtMultimediaWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtNetwork.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtNfc.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtOpenGL.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtPositioning.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtPrintSupport.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQml.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQuick.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQuickParticles.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQuickTest.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtQuickWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtScript.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtScriptTools.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtSensors.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtSerialPort.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtSql.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtSvg.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtTest.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtUiPlugin.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebChannel.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebEngine.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebEngineWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebKit.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebKitWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWebSockets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtWidgets.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtXml.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/lib/QtXmlPatterns.framework/Headers" />
+          <root url="file:///usr/local/Cellar/qt5/5.5.1_2/mkspecs/macx-clang" />
+          <root url="file:///usr/local/Cellar/x264/r2601/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/deps/file-updater/file-updater/file-updater.h" />
+          <root url="file://$MODULE_DIR$/deps/file-updater/file-updater/file-updater.c" />
+          <root url="file://$MODULE_DIR$/deps/file-updater/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/deps/glad/include/glad/glad.h" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/strbuffer.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/load.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/dump.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/utf.h" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/strconv.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/utf.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/value.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/pack_unpack.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/memory.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/error.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/hashtable.h" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/hashtable.c" />
+          <root url="file://$MODULE_DIR$/deps/jansson/src/strbuffer.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-threading-posix.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-packet-queue.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-packet-queue.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-decoder.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-decoder.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-demuxer.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-demuxer.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-util.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-circular-queue.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-threading.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-circular-queue.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-video-decoder.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-frame.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-audio-decoder.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-callbacks.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-callbacks.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-clock.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-clock.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-timer.h" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-timer.c" />
+          <root url="file://$MODULE_DIR$/deps/libff/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/deps/libff/libff/ff-util.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/format-conversion.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-audio.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/pipe-posix.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-module.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-module.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-scene.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/video-matrices.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-scene.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/c99defs.h" />
+          <root url="file://$MODULE_DIR$/libobs/callback/signal.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/plane.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/platform.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/plane.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/platform.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/base.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/threading.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/vc/vc_stdbool.h" />
+          <root url="file://$MODULE_DIR$/libobs/callback/proc.h" />
+          <root url="file://$MODULE_DIR$/libobs/callback/proc.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/effect.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/vc/vc_inttypes.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/effect.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/effect-parser.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/effect-parser.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/lexer.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/vec2.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/vec3.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/text-lookup.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/text-lookup.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/shader-parser.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/axisang.h" />
+          <root url="file://$MODULE_DIR$/libobs/LibObsConfigVersion.cmake.in" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/math-extra.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/quat.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/graphics.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/math-extra.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/graphics-ffmpeg.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/quat.c" />
+          <root url="file://$MODULE_DIR$/libobs/callback/calldata.c" />
+          <root url="file://$MODULE_DIR$/libobs/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/graphics.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/audio-resampler.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/pipe.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-view.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-output-delay.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/frame-rate.h" />
+          <root url="file://$MODULE_DIR$/libobs/callback/decl.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/util_uint128.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-display.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/video-scaler.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/vc/vc_stdint.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/profiler.hpp" />
+          <root url="file://$MODULE_DIR$/libobs/obs.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-hotkey-name-map.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/vec4.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/video-scaler-ffmpeg.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/matrix3.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/video-frame.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/matrix3.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/video-frame.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/bmem.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/bmem.c" />
+          <root url="file://$MODULE_DIR$/libobs/callback/calldata.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-encoder.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/libnsgif/libnsgif.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-audio-controls.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-encoder.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/libnsgif/libnsgif.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-audio-controls.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/vec3.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/cf-lexer.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/audio-math.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-avc.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-avc.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-data.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/cf-parser.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/utf8.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/cf-parser.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/profiler.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-defs.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-data.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-interaction.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/image-file.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-hotkey.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/image-file.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/audio-resampler-ffmpeg.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-hotkey.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/graphics-imports.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/audio-io.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/audio-io.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-ffmpeg-compat.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/media-remux.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/dstr.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/media-remux.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/dstr.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-properties.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-source-transition.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-config.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/config-file.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/texture-render.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/config-file.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/darray.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/video-fourcc.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-ui.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/utf8.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs.hpp" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/format-conversion.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/base.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/lexer.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-internal.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/input.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/circlebuf.h" />
+          <root url="file://$MODULE_DIR$/libobs/LibObsConfig.cmake.in" />
+          <root url="file://$MODULE_DIR$/libobs/util/threading-posix.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/platform-cocoa.m" />
+          <root url="file://$MODULE_DIR$/libobs/util/threading-posix.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/vec4.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-video.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/shader-parser.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/crc32.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/profiler.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-source.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/crc32.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-source.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/array-serializer.h" />
+          <root url="file://$MODULE_DIR$/libobs/callback/signal.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/array-serializer.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/axisang.c" />
+          <root url="file://$MODULE_DIR$/libobs/obsconfig.h.in" />
+          <root url="file://$MODULE_DIR$/libobs/callback/decl.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/video-io.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-cocoa.c" />
+          <root url="file://$MODULE_DIR$/libobs/obs-service.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-service.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/graphics-internal.h" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/media-io-defs.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/device-exports.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-output.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/vec2.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-output.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/cf-lexer.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/platform-nix.c" />
+          <root url="file://$MODULE_DIR$/libobs/media-io/video-io.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/serializer.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/bounds.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-hotkeys.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/bounds.c" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/math-defs.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/matrix4.h" />
+          <root url="file://$MODULE_DIR$/libobs/graphics/matrix4.c" />
+          <root url="file://$MODULE_DIR$/libobs/util/file-serializer.h" />
+          <root url="file://$MODULE_DIR$/libobs/obs-properties.h" />
+          <root url="file://$MODULE_DIR$/libobs/util/file-serializer.c" />
+          <root url="file://$MODULE_DIR$/obs/item-widget-helpers.cpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/NameDialog.ui" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-transform.hpp" />
+          <root url="file://$MODULE_DIR$/obs/properties-view.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-adv-audio.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-main-scene-collections.cpp" />
+          <root url="file://$MODULE_DIR$/obs/hotkey-edit.hpp" />
+          <root url="file://$MODULE_DIR$/obs/vertical-scroll-area.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-main-outputs.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-status-bar.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-properties.hpp" />
+          <root url="file://$MODULE_DIR$/obs/adv-audio-control.cpp" />
+          <root url="file://$MODULE_DIR$/obs/source-list-widget.cpp" />
+          <root url="file://$MODULE_DIR$/obs/volume-control.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-transform.cpp" />
+          <root url="file://$MODULE_DIR$/obs/source-label.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-log-reply.hpp" />
+          <root url="file://$MODULE_DIR$/obs/hotkey-edit.cpp" />
+          <root url="file://$MODULE_DIR$/obs/audio-encoders.cpp" />
+          <root url="file://$MODULE_DIR$/obs/mute-checkbox.hpp" />
+          <root url="file://$MODULE_DIR$/obs/item-widget-helpers.hpp" />
+          <root url="file://$MODULE_DIR$/obs/properties-view.moc.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-properties.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-log-reply.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-license-agreement.hpp" />
+          <root url="file://$MODULE_DIR$/obs/slider-absoluteset-style.hpp" />
+          <root url="file://$MODULE_DIR$/obs/qt-wrappers.hpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/obs.qrc" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-main-profiles.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-projector.hpp" />
+          <root url="file://$MODULE_DIR$/obs/source-label.cpp" />
+          <root url="file://$MODULE_DIR$/obs/qt-display.hpp" />
+          <root url="file://$MODULE_DIR$/obs/platform.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-filters.hpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSBasicSettings.ui" />
+          <root url="file://$MODULE_DIR$/obs/window-license-agreement.cpp" />
+          <root url="file://$MODULE_DIR$/obs/audio-encoders.hpp" />
+          <root url="file://$MODULE_DIR$/obs/slider-absoluteset-style.cpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSLicenseAgreement.ui" />
+          <root url="file://$MODULE_DIR$/obs/visibility-checkbox.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-projector.cpp" />
+          <root url="file://$MODULE_DIR$/obs/qt-display.cpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSBasicSourceSelect.ui" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-preview.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-settings.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-filters.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-source-select.hpp" />
+          <root url="file://$MODULE_DIR$/obs/visibility-item-widget.hpp" />
+          <root url="file://$MODULE_DIR$/obs/visibility-checkbox.cpp" />
+          <root url="file://$MODULE_DIR$/obs/crash-report.cpp" />
+          <root url="file://$MODULE_DIR$/obs/double-slider.hpp" />
+          <root url="file://$MODULE_DIR$/obs/CMakeLists.txt" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-settings.cpp" />
+          <root url="file://$MODULE_DIR$/obs/remote-text.hpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSBasic.ui" />
+          <root url="file://$MODULE_DIR$/obs/menu-button.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-preview.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-source-select.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-main.hpp" />
+          <root url="file://$MODULE_DIR$/obs/visibility-item-widget.cpp" />
+          <root url="file://$MODULE_DIR$/obs/double-slider.cpp" />
+          <root url="file://$MODULE_DIR$/obs/focus-list.hpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSRemux.ui" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-main-transitions.cpp" />
+          <root url="file://$MODULE_DIR$/obs/obs-app.hpp" />
+          <root url="file://$MODULE_DIR$/obs/remote-text.cpp" />
+          <root url="file://$MODULE_DIR$/obs/menu-button.cpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSBasicTransform.ui" />
+          <root url="file://$MODULE_DIR$/obs/window-remux.hpp" />
+          <root url="file://$MODULE_DIR$/obs/platform-osx.mm" />
+          <root url="file://$MODULE_DIR$/obs/window-namedialog.hpp" />
+          <root url="file://$MODULE_DIR$/obs/qt-wrappers.cpp" />
+          <root url="file://$MODULE_DIR$/obs/properties-view.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-main.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-main.hpp" />
+          <root url="file://$MODULE_DIR$/obs/display-helpers.hpp" />
+          <root url="file://$MODULE_DIR$/obs/focus-list.cpp" />
+          <root url="file://$MODULE_DIR$/obs/crash-report.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-adv-audio.hpp" />
+          <root url="file://$MODULE_DIR$/obs/obs-app.cpp" />
+          <root url="file://$MODULE_DIR$/obs/vertical-scroll-area.hpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSBasicFilters.ui" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-main-outputs.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-status-bar.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-remux.cpp" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSLogReply.ui" />
+          <root url="file://$MODULE_DIR$/obs/forms/OBSBasicInteraction.ui" />
+          <root url="file://$MODULE_DIR$/obs/window-namedialog.cpp" />
+          <root url="file://$MODULE_DIR$/obs/adv-audio-control.hpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-interaction.cpp" />
+          <root url="file://$MODULE_DIR$/obs/window-basic-interaction.hpp" />
+          <root url="file://$MODULE_DIR$/obs/source-list-widget.hpp" />
+          <root url="file://$MODULE_DIR$/obs/volume-control.hpp" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/obs/qrc_obs.cpp" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Debug/obs/obs_automoc.cpp" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/obs/qrc_obs.cpp" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/MinSizeRel/obs/obs_automoc.cpp" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/obs/obs_automoc.cpp" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/Release/obs/qrc_obs.cpp" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/obs/qrc_obs.cpp" />
+          <root url="file://$USER_HOME$/Library/Caches/CLion12/cmake/generated/4d8784da/4d8784da/RelWithDebInfo/obs/obs_automoc.cpp" />
+        </excluded>
+      </library>
+    </orderEntry>
+  </component>
+</module>
